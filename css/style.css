@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fdfbfb;
+}
+
+.menu_bg {
+  background: #506ad4;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_logo a {
+  color: #fff;
+}
+
+.menu_logo a {
+  font-size: 2rem;
+  font-weight: Bold;
+  font-family: 'Nunito', sans-serif;
+  margin: 0 10px;
+}
+
+.menu_logo a span {
+  color: #ffcb05;
+}
+
+.menu_nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu_nav li {
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/**/
+
+.horario {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  flex-basis: 100%;
+  min-width: 300px;
+  max-width: 50%;
+  margin: 25px auto;
+}
+
+.row h1 {
+  font-size: 2.25rem;
+  color: #534d4d;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row a {
+  font-size: 1.625rem;
+  color: cornflowerblue;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.row p {
+  font-size: 1.375rem;
+  color: #534d4d;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.row h5 {
+  font-size: 1rem;
+  color: rgba(223, 25, 42, 0.918);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 739px) {
+  .horario {
+    flex-direction: column;
+    max-width: 380px;
+  }
+
+  .row {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .row a {
+    font-size: 1.5rem;
+    color: cornflowerblue;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .row p {
+    font-size: 1.25rem;
+    color: #534d4d;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .row h5 {
+    font-size: 1rem;
+    color: rgba(223, 25, 42, 0.918);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+}
